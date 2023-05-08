@@ -34,3 +34,19 @@ Route::get('/array', function () {
 
     return $array[2];
 });
+
+
+//////////////////////////////////////////////
+
+
+Route::get('/chi-siamo', function () {
+    return view('chisiamo');
+});
+
+Route::get('/contatti', function () {
+    return view('contatti');
+});
+
+Route::get('/storia', function () {
+    return view('storia');
+});
